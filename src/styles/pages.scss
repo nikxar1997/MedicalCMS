@@ -9,3 +9,11 @@
 .pageContent{
     margin-left: 15%;
 }
+
+//CategoriesScreen.tsx
+.categoriesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
