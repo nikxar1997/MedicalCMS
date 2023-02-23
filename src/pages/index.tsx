@@ -9,16 +9,12 @@ import React, { useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export default function Home(props: any) {
+  const router = useRouter();
 
+  useEffect(() => {
+    router.push("/MainScreen");
+  }, []);
 
-export default function Home(props:any) {
-  const router = useRouter()
-
-useEffect(()=>{router.push("/MainScreen")},[])
-
-  return (
-    <>
-     
-    </>
-  );
+  return <></>;
 }

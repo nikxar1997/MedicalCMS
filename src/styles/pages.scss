@@ -1,6 +1,8 @@
+@use "variables";
+
 //General
 .mainContainer{
-    background-color: rgb(255, 255, 255);
+    background-color: variables.$white;
     display: flex;
     height:100vh;
     flex-direction: column;
@@ -10,8 +12,38 @@
     margin-left: 15%;
 }
 
+//MainScreen.tsx
+.mainScreenContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 //CategoriesScreen.tsx
 .categoriesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+//ConditionsScreen.tsx
+.conditionsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+//ArticlesScreen.tsx
+.articlesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+//NotificationScreen.tsx
+.notificationContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;

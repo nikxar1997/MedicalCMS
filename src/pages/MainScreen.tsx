@@ -1,8 +1,8 @@
-//asds
+
 export default function MainScreen() {
   return (
-    <div>
-      <div>MAIN Screen</div>
+    <div className="mainScreenContainer">
+      <h1 className="titleText">Main Screen</h1>
     </div>
   );
 }

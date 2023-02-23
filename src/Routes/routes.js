@@ -12,13 +12,13 @@ const routes = [
     layout: "/src",
   },
   {
-    path: "/",
+    path: "/ConditionsScreen",
     name: "Conditions",
     icon: "",
     layout: "/src",
   },
   {
-    path: "/",
+    path: "/ArticlesScreen",
     name: "Articles",
     icon: "",
     layout: "/src",
@@ -36,7 +36,7 @@ const routes = [
     layout: "/src",
   },
   {
-    path: "/",
+    path: "/NotificationScreen",
     name: "Notifications",
     icon: "",
     layout: "/src",

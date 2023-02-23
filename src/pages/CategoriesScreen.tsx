@@ -8,7 +8,8 @@ export default function CategoriesScreen() {
   ];
   return (
     <div className="categoriesContainer">
-      <div>Categories</div>
+      <h1 className="titleText">Categories</h1>
+      <button className="btnAdd">Add</button>
       <CategoryTable categories={categories} />
     </div>
   );

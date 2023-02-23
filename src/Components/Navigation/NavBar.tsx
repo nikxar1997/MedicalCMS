@@ -1,7 +1,7 @@
 export default function NavBar() {
   return (
     <div className="navBar">
-      <div className="navBarTitle">NavBAR</div>
+      <h2 className="navBarTitle">Medical CMS</h2>
     </div>
   );
 }
